@@ -1,0 +1,129 @@
+body {
+  /* background-color: white; */
+  background-image: url(https://images.pexels.com/photos/3980364/pexels-photo-3980364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#dark-mode {
+  text-decoration: none; 
+  color: black; 
+  background-color: transparent; 
+  border: 1px solid black; 
+  border-radius: 5px;
+  padding: 5px; 
+  font-size: inherit;
+  cursor: pointer; 
+  margin-left: 50px; 
+
+}
+
+#dark-mode:hover {
+  background-color: black;
+  color: white; 
+}
+.container {
+  width: 80%;
+  background-color: #ddd6cc;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 7px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: solid 1px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+
+.header {
+  overflow: hidden;
+}
+.header img {
+  width: 150px;
+  float: left;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.header .nav {
+  float: right;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.section1 .text {
+  padding-top: 50px;
+  padding-left: 20px;
+  float: left;
+}
+.section1 .image {
+  float: right;
+  padding-right: 25px;
+  padding-top: 40px;
+}
+
+.section1 .image img {
+  width: 300px;
+  border-radius: 10px;
+}
+.section2 {
+  padding-top: 400px;
+  width: 100%;
+}
+.section2 img {
+  width: 20px;
+}
+.section2 div {
+  width: 20%;
+  display: inline-block;
+  padding-left: 30px;
+  vertical-align: top;
+}
+
+#footer {
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .container {
+  background-color: rgba(0, 0, 0, 0.979);
+  border-color: #555;
+}
+
+.dark-mode a {
+  color: white;
+  border-color: white;
+}
+
+.dark-mode a:hover {
+  background-color: white;
+  color: black;
+}
+.dark-mode #dark-mode {
+  color: white; 
+  border-color: white; 
+}
+
+.dark-mode #dark-mode:hover {
+  background-color: white;
+  color: black; 
+}
+
+.dark-mode .section2 img {
+  filter: invert(1);
+}
+.dark-mode .header img {
+  filter: invert(1);
+}
